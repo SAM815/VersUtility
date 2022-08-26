@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+   
+    width: 100%;
+    height: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 6vh;
+}
+.cart{
+
+  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding-right: 33px;
+    padding-left: 18px;
+    font-size: 30px;
+    margin-right: 15px;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+
+}
+i{
+    cursor: pointer;
+}
+.cartAmount{
+    width: 35px;
+   height: 35px;
+ 
+    position: absolute;
+    top: -20px;
+    left: 60px;
+    font-size: 1.2rem;
+    color: white;
+    background-color: red;
+     border-radius: 5px;
+    display: flex;
+    align-items: center;
+  
+
+}
+.cartAmount{
+    padding-left: 5px;
+}
+
+#Section-2{
+   
+  
+   
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    justify-content: center;
+    
+}
+
+@media (max-width: 1267px){
+    #Section-2 {
+       flex-direction: column;
+    }
+   
+}
+@media (max-width: 1009px){
+    .navbar a {
+       padding-bottom: 50px;
+    }
+   
+}
+
+
+#Section-2 .cardborder{
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 10px 10px 14px rgb(10, 21, 3);
+    
+
+    
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    
+
+}
+.quantity{
+    font-size: 2rem;
+}
+.buttons i{
+    padding: 10px;
+    
+    
+}
+
+#cartpage{
+min-width: 100vw;
+min-height: 100vh;
+
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+gap: 30px;
+}
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.HomeBtn{
+    background-color: #212529;
+    color: white;
+    border: none;
+    padding: 6px;
+cursor: pointer;
+margin-top: 10px;
+}
+.bi-x{
+    color: red;
+    font-weight: bold;
+}
+.cart-item{
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+}
+.shopping-cart{
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+    
+   
+
+}
+
+.title-price-x{
+    width: 195px;
+   display: flex;
+   
+   align-items: center;
+   justify-content: space-between;
+
+
+}
+.title-price{
+display: flex;
+align-items: center;
+
+gap: 10px;
+}
+.cart-item-price{
+    background-color: #212529;
+    color: white;
+    border-radius: 4px;
+   padding: 3px 6px;
+}
+.checkout{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px;
+cursor: pointer;
+margin-top: 10px;
+}
+.HomeBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 6px;
+cursor: pointer;
+margin-top: 10px;
+}

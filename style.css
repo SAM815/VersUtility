@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+font-family: sans-serif;
+overflow: hidden;
+width: 100vw;
+height: 100vh;
+background-color: yellow;
+font-size: 10px;
+
+
+}
+.container1{
+ width: 100%;
+ height: 100%;
+
+
+}
+.container{
+  width: 100%;
+  height: 100%;
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logohome{
+    width: 20%;
+   
+  
+
+   
+   
+}
+@media(max-width: 992px){
+.logohome{
+  transform: translate x(-30px);
+}
+}
+
+
+
+
+/* About page CSS Styling */
+.aboutcontainer{
+  width: 100%;
+  height: 100%;
+  background-color: rgb(243, 174, 174);
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  
+ 
+}
+.abc1{
+ 
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+
+}
+.abc2{
+
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+ 
+}
+.abc3{
+ 
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+ 
+}
+.abc4{
+  
+  width: 25%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+ 
+}
+.contents1{
+  width: 80%;
+  height: 70%;
+  font-size: 1rem;
+  border: 5px solid black;
+  border-radius: 10px;
+  color: rgb(144, 8, 151);
+  
+}
+.contents2{
+  width: 80%;
+  height: 70%;
+  font-size: 1rem;
+  border: 5px solid black;
+  border-radius: 10px;
+  color: rgb(144, 8, 151);
+  
+}
+.contents3{
+  width: 80%;
+  height: 70%;
+  font-size: 1rem;
+  border: 5px solid black;
+  border-radius: 10px;
+  color: rgb(144, 8, 151);
+}
+.contents4{
+  width: 80%;
+  height: 70%;
+  font-size: 1rem;
+  border: 5px solid black;
+  border-radius: 10px;
+  color: rgb(144, 8, 151);
+}
+.font{
+  color:rgb(20, 4, 65);
+  font-size: 2rem;
+}
+.topic{
+font-size: 2rem;
+}
+@media(min-width: 1324px) and (max-width: 2000px){
+  .font{
+    font-size: 1rem;
+  }
+
+}
+@media(min-width: 1108px) and (max-width: 1324px){
+  .font{
+    font-size: .9rem;
+  }
+}
+@media(min-width: 876px) and (max-width: 1108px){
+  .font{
+    font-size: .8rem;
+  }
+}
+@media(min-width: 720px) and (max-width: 876px){
+  .font{
+    font-size: .68rem;
+  }
+}
+@media(min-width: 560px) and (max-width: 720px){
+  .font{
+    font-size: .6rem;
+  }
+}
+@media(min-width: 412px) and (max-width: 560px){
+  .font{
+    font-size: .5rem;
+  }
+}
+@media(min-width: 300px) and (max-width: 412px){
+  .font{
+    font-size: .4rem;
+  }
+}
+@media(max-width: 550px){
+  .topic{
+    font-size: 1rem;
+  }
+}
+ /* Tic-Tac-Toe Game */
+ .gamescontainer{
+   width: 100vw;
+   height: 100vh;
+   background-color: red;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 50px;
+
+ }
+
+ .snake .card{
+   width: 500px;
+   height: 500px;
+   
+ }
+ 
+ .tictactoe .card{
+    width: 500px;
+   height: 500px;
+ }
+ .tictactoe .card img{
+   width: 500px;
+  height: 350px;
+}
