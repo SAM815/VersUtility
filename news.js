@@ -13,7 +13,7 @@ let newsAccordion = document.getElementById("newsAccordion");
 //create a get request
 const xhr = new XMLHttpRequest();
 //xhr.open('GET','https://newsapi.org/v2/top-headlines?sources=${source}&apiKey=${apiKey}', true)
-xhr.open('GET', 'http://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9ce82e8c8145426799d4b607580500af', true)
+xhr.open('GET', 'https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=9ce82e8c8145426799d4b607580500af', true)
 
 
 xhr.onload = function () {
