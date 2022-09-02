@@ -173,28 +173,28 @@ font-size: 2rem;
   }
 }
  /* Tic-Tac-Toe Game */
- .gamescontainer{
-   width: 100vw;
-   height: 100vh;
-   background-color: red;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   gap: 50px;
-
- }
-
- .snake .card{
-   width: 500px;
-   height: 500px;
-   
- }
+.gamescontainer{
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(96, 56, 56);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
  
- .tictactoe .card{
-    width: 500px;
-   height: 500px;
- }
- .tictactoe .card img{
-   width: 500px;
-  height: 350px;
+}
+.gamecards{
+  width: 60%;
+  height: 60vh;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+ 
+
+ 
+}
+.card{
+  width: 90%;
+  
+ 
+
 }
